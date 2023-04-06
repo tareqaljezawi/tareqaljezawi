@@ -1,6 +1,6 @@
-- 👋 Hi, I’m @tareqaljezawi
+- 👋 Hi, I’m @tareqaljezawi I'm a business analyst and web developer with Accounting background, I helped many companies in various countries to automate their business.
 - 👀 I’m interested in ERP systems and automation
-- 🌱 I’m currently learning developement
+- 🌱 I’m CEO of Debug LLC (Odoo Silver Partner)
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me tareqsamir73@gmail.com
 

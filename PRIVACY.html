@@ -37,11 +37,16 @@
 
   <h2>Permissions</h2>
   <ul>
-    <li><code>host permissions (&lt;all_urls&gt;)</code> — required to capture a
-      screenshot of the tab you choose to document. The extension only acts while
-      you are recording.</li>
-    <li><code>storage</code> / <code>unlimitedStorage</code> — to save your
-      guides and their images locally on your device.</li>
+    <li><code>activeTab</code> — reads the URL of the tab you're on when you open
+      the popup, so access can be requested for just that site.</li>
+    <li><code>scripting</code> — injects the capture script into a site you're
+      recording, and only while recording.</li>
+    <li><code>storage</code> — saves recording state locally; your guides and
+      images live in local IndexedDB on your device.</li>
+    <li>Per-site page access (requested when you click "Start recording" or "Add
+      this site") — lets the extension screenshot that specific site. Access is
+      granted one site at a time, never for all sites, and can be revoked anytime
+      in your browser's extension settings.</li>
   </ul>
 
   <h2>Your control over your data</h2>
